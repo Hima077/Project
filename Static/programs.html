@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+      <style>
+body {
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+p {text-align: center;}
+form{text-align: center;}
+h2{text-align: center;}
+
+.container{  
+text-align: center;  
+
+
+}  
+#btn{  
+font-size: 25px;  
+}  
+
+
+</style>
+
+
+  </head>
+<body>
+
+<h2>Programs</h2>
+
+<p>Select from drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="program">Choose a program:</label>
+  <select id="list" name="list">
+    <option value="select">Select</option>
+    <option value="solo dance">Solo Dance</option>
+    <option value="group dance">Group Dance</option>
+    <option value="solo song">Solo Song</option>
+    <option value="group song">Group Song</option>
+    <option value="monoact">Monoact</option>
+    <option value="drama">Drama</option>
+  </select>
+
+</form>
+<div class="container">  
+<button type="button" onclick="alert('submitted successfully')">submit!</button>
+</div>
+
+</body>
+</html>
